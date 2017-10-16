@@ -35,3 +35,9 @@
     순수하지 않은 API 호출을 하지 말아야 한다. (Date 및 Math 의 함수 등)
 
 출처: https://velopert.com/1225
+
+3. React APP설명
+
+	- INCREMENT: 카운터의 값을 올린다.
+	- DECREMENT: 카운터의 값을 낮춘다.
+	- SET_DIFF: 버튼이 눌릴 때 더하거나 뺄 값을 설정한다.
