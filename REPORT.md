@@ -12,12 +12,12 @@
    -Redux는 어플리케이션의 state를 위해 단 한개의 store 를 사용합니다. 
    	 모든 state 가 한곳에 있기 떄문에 이를 Single Source of Truth 라고 부릅니다.
     
-  2.2 State is read-only
+ 	 2.2 State is read-only
     -어플리케이션에서 state를 직접 변경 할 수는 없다는 의미입니다.
     state 를 변경하기 위해서는, action 이 dispatch 되어야 합니다.
     action 은, 어떤 변화가 일어나야 할 지 알려주는 객체입니다.
     
-  2.3 Changes are made with Pure Functions 
+ 	 2.3 Changes are made with Pure Functions 
     -두번째 원칙에 설명된것처럼 Redux 에선 어플리케이션에서 state 를 직접 변경하는것을 허용하지 않습니다.
     그 대신에 action 을 dispatch 하여 상태값을 변경 과정에서 받아온 action 객체를 처리하는 함수를 Reducer 라고 부릅니다.
     action은 어떤 변화를 일어나야 할 지 알려주는 객체라면, Reducer 는 그 정보를 받고 애플리케이션의 상태를 어떻게 바꿀지 정의한다고 볼 수 있습니다.
