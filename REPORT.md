@@ -7,9 +7,10 @@
   	특정 데이터의 변동을 주의하고있다가 변동이 있을시 바로 반영시키는것을 가르킵니다.
 
 2. Redux의 3가지 원칙
-  2.1 Single Source of Truth
-    -Redux는 어플리케이션의 state를 위해 단 한개의 store 를 사용합니다. 
-    모든 state 가 한곳에 있기 떄문에 이를 Single Source of Truth 라고 부릅니다.
+
+  	2.1 Single Source of Truth
+   -Redux는 어플리케이션의 state를 위해 단 한개의 store 를 사용합니다. 
+   	 모든 state 가 한곳에 있기 떄문에 이를 Single Source of Truth 라고 부릅니다.
     
   2.2 State is read-only
     -어플리케이션에서 state를 직접 변경 할 수는 없다는 의미입니다.
