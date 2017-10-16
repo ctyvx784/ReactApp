@@ -37,7 +37,9 @@
 출처: https://velopert.com/1225
 
 3. React APP설명
-
+	# actions/index.js 
 	- INCREMENT: 카운터의 값을 올린다.
 	- DECREMENT: 카운터의 값을 낮춘다.
 	- SET_DIFF: 버튼이 눌릴 때 더하거나 뺄 값을 설정한다.
+	
+	
